@@ -46,6 +46,6 @@ public class P1nomor4_F1B021104 {
         System.out.println("speed: "+newMobil.speedd);
 
 
-        // newMobil.speed(newMobil.speedd);
+        newMobil.speed(newMobil.speedd);
     }
 }
