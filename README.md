@@ -7,5 +7,5 @@
 4. Mugni Al Rasyid_F1B021013
    
 ## P1
-Hasil Running Program
-- ![P3](https://github.com/maljackvroh/pbo-kelompok-5/blob/master/Percobaan1/Assets/SS%20js3.PNG)
+Hasil Running Program:
+- P3: ![P3](https://github.com/maljackvroh/pbo-kelompok-5/blob/master/Percobaan1/Assets/SS%20js3.PNG)
