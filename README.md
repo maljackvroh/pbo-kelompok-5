@@ -8,4 +8,5 @@
    
 ## P1
 Hasil Screenshoot Program:
+- P1: <img src= https://github.com/maljackvroh/pbo-kelompok-5/blob/master/Percobaan1/Assets/Js.1.png 
 - P3: <img src= https://github.com/maljackvroh/pbo-kelompok-5/blob/master/Percobaan1/Assets/SS%20js3.PNG>
