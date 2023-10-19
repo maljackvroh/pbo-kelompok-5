@@ -1,0 +1,5 @@
+1. Membuat attribut dari sebuah class dan buatkan objek
+2. Membuat 5 attribut kemudian tampilkan dalam 2 objek yang berbeda
+3. Membuat class dan method
+4. Membuat program inputan dinamis menggunakan studi kasus masing-masing dengan 5 buah objek yang berbeda
+5. Membuat Objek Konstruktor dari 2 kelas yang berbeda masing masing 2 objek
