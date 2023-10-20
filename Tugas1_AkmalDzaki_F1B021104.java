@@ -1,9 +1,6 @@
-import java.util.Scanner;
-
 class data {
-    int data;
-    int dataAkhir;
-    int dataAwal;
+    int angka;
+    
     
     
 }
@@ -11,13 +8,11 @@ class data {
 public class Tugas1_AkmalDzaki_F1B021104 {
     public static void main(String[] args) {
         data num = new data();
-        Scanner obj = new Scanner(System.in);
+
+        num.angka = 1234567;
 
         System.out.println("PROGRAM PENGECEKAN BILANGAN POLINDROM ANGKA");
-        System.out.println("masukan bilangan :");
-
-        num.data = obj.nextInt();
-
+        System.out.println("Bilangan: "+num.angka);
 
     }
 }
