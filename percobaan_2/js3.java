@@ -8,7 +8,7 @@ class Bangun {
 
     // Rumus volume limas V: ⅓ x (s x s) x t
     double hitung(){
-        return hasil = 1/3*(sisi*sisi)*tinggi;
+        return hasil = (sisi*sisi)*tinggi/3;
     }
 }
 
@@ -24,6 +24,6 @@ public class js3 {
         System.out.println("Masukan nilai tinggi: ");
         limas.tinggi = obj.nextInt();
 
-        System.out.println("Volume dari limas: "+limas.hitung());
+        System.out.println("Volume dari limas segi empat dengan sisi "+limas.sisi+" dan volume "+limas.tinggi+" adalah "+limas.hitung());
     }
 }
