@@ -5,6 +5,7 @@ class data {
     int dataAkhir;
     int dataAwal;
     
+    
 }
 
 public class Tugas1_AkmalDzaki_F1B021104 {
