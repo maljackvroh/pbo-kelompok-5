@@ -1,3 +1,4 @@
+    // Buatlah program (bebas) method dengan Setter dan Getter dengan contoh dan Latihan yang telah di buat
     package percobaan_2;
 
     class Mahasiswa{
@@ -10,6 +11,7 @@
             return ipk;
         }
 
+        // Setter
         public void setIpk(double newIpk){
             this.ipk = newIpk;
         }
@@ -21,6 +23,6 @@
             Mahasiswa mhs = new Mahasiswa();
 
             mhs.setIpk(3.43);
-            System.out.println(mhs.getIpk());
+            System.out.println("Ipk saya: " + mhs.getIpk());
         }
     }
