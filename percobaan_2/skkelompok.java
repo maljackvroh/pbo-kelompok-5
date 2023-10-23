@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Mahasiswa {
     String nama;
     String nim;
-    int kelompok;
+    String kelompok;
     String kbk;
     String alamat;
 
@@ -41,10 +41,10 @@ public class skkelompok {
         mhs.nama = in.nextLine();
         
         System.out.println("NIM: ");
-        mhs.nama = in.next();
+        mhs.nim = in.nextLine();
 
         System.out.println("Kelompok: ");
-        mhs.kelompok = in.nextInt();
+        mhs.kelompok = in.nextLine();
 
         System.out.println("Masukan KBK: ");
         mhs.kbk = in.nextLine();

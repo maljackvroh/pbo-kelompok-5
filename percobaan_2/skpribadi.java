@@ -1,6 +1,8 @@
 // Buatlah program (bebas) method dengan Setter dan Getter dengan contoh dan Latihan yang telah di buat
 package percobaan_2;
 
+import java.util.Scanner;
+
 class Mahasiswa{
     String nama;
     String nim;
