@@ -41,16 +41,16 @@ public class skkelompok {
         mhs.nama = in.nextLine();
         
         System.out.println("NIM: ");
-        mhs.nama = in.next();
+        mhs.nim = in.next();
 
         System.out.println("Kelompok: ");
         mhs.kelompok = in.nextInt();
 
         System.out.println("Masukan KBK: ");
-        mhs.kbk = in.nextLine();
+        mhs.kbk = in.next();
 
         System.out.println("Alamat: ");
-        mhs.alamat = in.nextLine();
+        mhs.alamat = in.next();
 
         mhs.display1();
         mhs.display2();
