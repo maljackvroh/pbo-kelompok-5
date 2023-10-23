@@ -1,5 +1,7 @@
 package percobaan_2;
 
+import java.util.Scanner;
+
 class Mahasiswa {
     String nama;
     String nim;
@@ -31,12 +33,24 @@ class Mahasiswa {
 public class skkelompok {
     public static void main(String[] args) {
         Mahasiswa mhs = new Mahasiswa();
+        Scanner in = new Scanner(System.in);
 
-        mhs.nama = "Akmal Dzaki";
-        mhs.nim = "F1B021104";
-        mhs.kelompok = 5;
-        mhs.kbk = "Teknik Komputer";
-        mhs.alamat = "Jln Melur No1.A";
+        System.out.println("Masukan data mahasiswa: ");
+        
+        System.out.println("Nama: ");
+        mhs.nama = in.nextLine();
+        
+        System.out.println("NIM: ");
+        mhs.nama = in.next();
+
+        System.out.println("Kelompok: ");
+        mhs.kelompok = in.nextInt();
+
+        System.out.println("Masukan KBK: ");
+        mhs.kbk = in.nextLine();
+
+        System.out.println("Alamat: ");
+        mhs.alamat = in.nextLine();
 
         mhs.display1();
         mhs.display2();
