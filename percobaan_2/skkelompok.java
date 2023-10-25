@@ -45,7 +45,7 @@ public class skkelompok {
 
         System.out.println("Kelompok: ");
         mhs.kelompok = in.nextLine();
-
+        
         System.out.println("Masukan KBK: ");
         mhs.kbk = in.next();
 
