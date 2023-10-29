@@ -43,13 +43,7 @@ public class P1skkelompok {
         System.out.println("Max Speed: ");
         newCars.speedd = obj.nextInt();
 
-        System.out.println("\nBerikut data Mobil yang anda masukan: ");
-        System.out.println("Merek"+newCars.merek);
-        System.out.println("Model: "+newCars.model);
-        System.out.println("Warna: "+newCars.warna);
-        System.out.println("Bahan bakar: "+newCars.bahanBakar);
-        System.out.println("harga: "+newCars.harga);
-        System.out.println("speed: "+newCars.speedd);
+        newCars.display(newCars.merek, newCars.model, newCars.warna, newCars.bahanBakar, newCars.harga);
 
 
         newCars.speed(newCars.speedd);
