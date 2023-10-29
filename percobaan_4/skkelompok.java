@@ -1,7 +1,9 @@
 package percobaan_4;
 
 import java.util.Scanner;
-// Buatlah constructor overload untuk menghitung volume bangun ruang balok, kubus dan limas. Isi nilai tinggi dengan 2 digit nim terakhir anda.
+    /*Buatlah constructor overload untuk menghitung volume bangun ruang balok, kubus dan limas.
+    Isi nilai tinggi dengan 2 digit nim terakhir anda.
+    */
 
 class volume{
     int hasilBalok;
@@ -55,6 +57,7 @@ public class skkelompok {
         System.out.println("T: ");
         int ti = in.nextInt();
 
+        // Deklarasi objek
         volume balok = new volume(p,l,t);
         volume kubus = new volume(s);
         volume limas = new volume(la, ti);
