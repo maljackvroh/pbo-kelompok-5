@@ -1,11 +1,14 @@
 import java.util.Scanner;
 
 class Mobil2 {
-    String[][] data = {
+    public String[][] data = {
             { "Honda", "Avanza", "150000000" },
             { "Toyota", "Kijang", "250000000" },
-            { "Mitsubishi", "Xpander", "280000000" }
-    };
+            { "Mitsubishi", "Xpander", "280000000" }};
+    int mobil;
+    int harga;
+    int jumlah;
+    int total;
 
     public void display() {
         System.out.println("SELAMAT DATANG DI TOKO MOBIL JAYA");
@@ -19,28 +22,7 @@ class Mobil2 {
         }
     }
 
-    public void pilih() {
-        Scanner input = new Scanner(System.in);
-
-        System.out.print("\nMasukkan nomor mobil yang ingin dibeli: ");
-        int mobil = input.nextInt() - 1;
-        while (mobil < 0 || mobil >= data.length) {
-            System.out.print("Nomor mobil tidak valid, silakan masukkan nomor yang valid: ");
-
-        }
-
-        System.out.print("Masukkan jumlah mobil yang ingin dibeli: ");
-        int jumlah = input.nextInt();
-        System.out.println("");
-        int harga = Integer.parseInt(data[mobil][2]);
-        int total = harga * jumlah;
-        if (total >= 500000000) {
-            int diskon = total / 9;
-            total -= diskon;
-            System.out.println("SELAMAT !!!, Anda mendapatkan diskon 9%!");
-            System.out.println("Diskon: Rp " + diskon);
-        }
-
+    public void kasir() {
         System.out.println("\nDetail Pembelian:");
         System.out.println("---------------------");
         System.out.println("Merk    : " + data[mobil][0]);
@@ -56,9 +38,25 @@ class Mobil2 {
 public class Mobil3 {
     public static void main(String[] args) {
         Mobil2 a = new Mobil2();
+        Scanner input = new Scanner(System.in);
+
         a.display();
         a.daftar();
-        a.pilih();
+
+        System.out.print("\nMasukkan nomor mobil yang ingin dibeli: ");
+        a.mobil = input.nextInt() - 1;
+        while (a.mobil < 0 || a.mobil >= 3) {
+            System.out.print("Nomor mobil tidak valid, silakan masukkan nomor yang valid: ");
+
+        }
+
+        System.out.print("Masukkan jumlah mobil yang ingin dibeli: ");
+        a.jumlah = input.nextInt();
+        System.out.println("");
+        a.harga = Integer.parseInt(a.data[a.mobil][2]);
+        a.total = a.harga * a.jumlah;
+        
+        a.kasir();
 
     }
 }
