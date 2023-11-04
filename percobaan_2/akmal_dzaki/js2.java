@@ -1,4 +1,4 @@
-package percobaan_2;
+package percobaan_2.akmal_dzaki;
 
 class Hewan {
     String[] karnivora = {"Macan","Singa","Buaya"};

@@ -4,7 +4,7 @@ package percobaan_2;
 import java.util.Scanner;
 
 //buat class objek
-class Mahasiswa{
+class mhsss{
     //atribut
     String nama;
     String nim;
@@ -26,7 +26,7 @@ public class skpribadi {
     //main function
     public static void main(String[] args) {
         //deklarasi objek mhs :: objek
-        Mahasiswa mhs = new Mahasiswa();
+        mhsss mhs = new mhsss();
 
         //masukin nilai pake set ke objek mhs
         mhs.setIpk(3.43);

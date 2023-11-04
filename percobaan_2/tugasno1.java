@@ -12,6 +12,8 @@ package percobaan2;
 
 import java.util.Scanner;
 
+import percobaan_2.akmal_dzaki.Mahasiswa;
+
 class Mahasiswaaa{
     String nama;
     String nim;

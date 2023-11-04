@@ -1,4 +1,4 @@
-package percobaan_2;
+package percobaan_2.akmal_dzaki;
 
 class Mahasiswa {
     String nama;
