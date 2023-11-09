@@ -8,8 +8,8 @@
    
 ## P1
 Hasil Screenshoot Program:
-- P1 <img src="https://github.com/maljackvroh/pbo-kelompok-5/blob/master/assets/nomor1.png">
-- P2 <img src="https://github.com/maljackvroh/pbo-kelompok-5/blob/master/assets/no2.png">
-- P3 <img src="https://github.com/maljackvroh/pbo-kelompok-5/blob/master/assets/Screenshot%20no3.png">
-- P4 <img src="https://github.com/maljackvroh/pbo-kelompok-5/blob/master/assets/Screenshot%20no4.png"> 
-- P5 <img src="https://github.com/maljackvroh/pbo-kelompok-5/blob/master/assets/Screenshot%20no5.png">
+- Js1 <img src="https://github.com/maljackvroh/pbo-kelompok-5/blob/master/assets/nomor1.png">
+- Js2 <img src="https://github.com/maljackvroh/pbo-kelompok-5/blob/master/assets/no2.png">
+- Js3 <img src="https://github.com/maljackvroh/pbo-kelompok-5/blob/master/assets/Screenshot%20no3.png">
+- Js4 <img src="https://github.com/maljackvroh/pbo-kelompok-5/blob/master/assets/Screenshot%20no4.png"> 
+- Js5 <img src="https://github.com/maljackvroh/pbo-kelompok-5/blob/master/assets/Screenshot%20no5.png">
