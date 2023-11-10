@@ -3,9 +3,9 @@ package percobaan_5;
 import java.util.Scanner;
 
 class trap {
-    float atas;
-    float bawah;
-    float tinggi;
+    private float atas;
+    private float bawah;
+    private float tinggi;
 
     public void setTrap(float atas, float tinggi, float bawah){
         this.tinggi = tinggi;

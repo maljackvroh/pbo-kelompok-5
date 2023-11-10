@@ -1,4 +1,4 @@
-package percobaan_7;
+package percobaan_7.akmal_dzaki;
 
 import java.util.ArrayList;
 import java.util.List;

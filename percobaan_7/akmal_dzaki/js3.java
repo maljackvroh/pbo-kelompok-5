@@ -1,4 +1,4 @@
-package percobaan_7;
+package percobaan_7.akmal_dzaki;
 
 public class js3 {
     public static void main(String[] args) {
